@@ -26,6 +26,8 @@ body {
 
 .white-color { color: #fff; }
 
+.black-color { color: black }
+
 p {
     line-height: 1.5;
     font-weight: 200;
