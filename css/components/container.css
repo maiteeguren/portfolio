@@ -1,0 +1,23 @@
+section {
+    padding: 80px 0px;
+}
+    
+.heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.heading h2 {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+/* -------------
+    RESPONSIVE 
+---------------- */
+@media (max-width: 991px) {
+    section {
+        padding: 20px;
+    }
+}

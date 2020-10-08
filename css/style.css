@@ -1,0 +1,75 @@
+@import url("components/banner.css");
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/navbar.css");
+@import url("components/footer.css");
+@import url("components/card.css");
+
+
+html { scroll-behavior: smooth; }
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.grey { background: #f0f0f0; }
+
+.pink { background: #ffe8df; }
+
+.white { background: #fff; }
+
+.blue { color: #7579e7; }
+
+.white-color { color: #fff; }
+
+p {
+    line-height: 1.5;
+    font-weight: 200;
+    word-wrap: break-word;
+}
+
+a {
+    color: #7579e7;
+    text-decoration: none;
+}
+
+i {
+    font-size: 20px;
+    color: black;
+}
+
+i:hover {
+    color: #7579e7;
+    transition: 0.5s;
+}  
+.w-60 { width: 60%; }
+
+.w-40 { width: 40%; }
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+/* -------------
+    RESPONSIVE 
+---------------- */
+
+
+@media(max-width: 768px) {
+    .project-card {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .w-40, .w-60 {
+        width: -webkit-fill-available;
+    }
+}

@@ -1,0 +1,149 @@
+.project-card {
+    width: 60vw;
+    display: flex;
+    margin: 60px auto;
+    box-shadow: -10px 10px 10px rgba(0,0,0,0.1);
+}
+
+.project-card div {
+    padding: 60px 40px;
+    background: #fff;
+}
+
+.project-card div a {
+    text-decoration: none;
+}
+
+.project-card div h3 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.project-card img {
+    object-fit: cover;
+}
+
+.resume .heading {
+    margin-bottom: -20px;
+}
+.experience {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 60px;
+    width: 60vw;
+}
+
+.experience h3 {
+    margin: 0;
+}
+
+.experience .btn {
+    margin: 0;
+}
+
+.resume .project-card .white {
+    margin: 0;
+    padding: 60px 40px 60px 0px;
+}
+
+.job-card div {
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+
+.job-card div h3 {
+    margin: 0;
+}
+
+.job-card div .white {
+    display: flex;
+    align-items: flex-end;
+}
+.job-card div p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.skills-card div {
+    padding: 0;
+}
+
+.skills-card .lists {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.skills-card .lists div {
+    width: 50%;
+}
+
+.skills-card ul {
+    list-style-type: none;
+}
+
+.lists div h4 {
+    margin: 0;
+    padding-left: 10px;
+}
+
+.skills-card  ul li {
+    line-height: 1.5;
+    font-weight: 200;
+    word-wrap: break-word;
+}
+
+.skills-card  ul li::before {
+    content: "\25A0";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #7579e7; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.languages {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+
+/* -------------
+    RESPONSIVE 
+---------------- */
+@media (max-width: 991px) {
+    .project-card, .experience {
+        width: 90%;
+    }
+    .project-card div {
+        padding: 20px;
+        width: -webkit-fill-available;
+    }
+
+    .project-card.job-card .white {
+        padding: 20px;
+    }
+
+    .project-card.job-card {
+        flex-direction: column;
+    }
+   
+}
+
+@media(max-width: 768px) {
+    .languages {
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+    }
+    .skills-card .lists div {
+        width: -webkit-fill-available;
+    }
+    .skills-card .lists {
+        display: block;
+    }
+}

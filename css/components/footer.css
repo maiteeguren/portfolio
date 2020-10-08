@@ -1,0 +1,64 @@
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.skills-card {
+    width: -webkit-fill-available;
+}
+.reach-me-box {
+    display: flex;
+    align-items: center;
+}
+
+.reach-me-box div {
+    padding-left: 30px;
+    text-align: center;
+}
+
+.reach-me-box div h4 {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.reach-me-box div p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.reach-me-box ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+    
+.reach-me-box ul li {
+    padding: 0 10px;
+}
+
+.footer-links i {
+    font-size: 16px;
+}
+
+@media(max-width: 768px) {
+    .reach-me-box {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .reach-me-box div {
+        padding: 20px;
+    }
+
+    .contact {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact h3 {
+        text-align:center;
+    }
+}
