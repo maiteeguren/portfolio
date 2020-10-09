@@ -42,6 +42,7 @@
 @media (max-width: 991px) {
 
     #back-to-top {
+        display: block;
         width: 50;
         height: 50px;
         position: fixed; /* Fixed/sticky position */
