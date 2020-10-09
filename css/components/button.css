@@ -36,33 +36,35 @@
 }
 
 #back-to-top {
-    display: none; 
+    display: none;
+    width: 50;
+    height: 50px;
+    position: fixed; /* Fixed/sticky position */
+    bottom: -20px; /* Place the button at the bottom of the page */
+    right: -30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 5px; /* Some padding */
+    border-radius: 50%; /* Rounded corners */  
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    outline: none;
+}
+
+#back-to-top i {
+color: white;
+font-size: 25px;
+}
+
+#back-to-top:hover i {
+    color: #7579e7;
+    font-size: 25px;
 }
 
 @media (max-width: 991px) {
 
     #back-to-top {
-        width: 50;
-        height: 50px;
-        position: fixed; /* Fixed/sticky position */
         bottom: 20px; /* Place the button at the bottom of the page */
         right: 30px; /* Place the button 30px from the right */
-        z-index: 99; /* Make sure it does not overlap */
-        cursor: pointer; /* Add a mouse pointer on hover */
-        padding: 5px; /* Some padding */
-        border-radius: 50%; /* Rounded corners */  
-        box-shadow: 0 0 5px rgba(0,0,0,0.2);
-        outline: none;
-    }
-    
-    #back-to-top i {
-        color: white;
-        font-size: 25px;
-    }
-    
-    #back-to-top:hover i {
-        color: #7579e7;
-        font-size: 25px;
     }
 }
 
