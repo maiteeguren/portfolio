@@ -147,4 +147,16 @@
     .skills-card .lists {
         display: block;
     }
+    .project-card img {
+        height: 280px;
+    }
+}
+
+@media(max-width: 450px) {
+    .experience {
+      display: block;
+    }
+    .experience .btn {
+        margin-top: 20px;
+    }
 }
