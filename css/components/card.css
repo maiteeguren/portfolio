@@ -29,6 +29,7 @@
 }
 .experience {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
@@ -155,8 +156,9 @@
 @media(max-width: 450px) {
     .experience {
       display: block;
+      padding: 0;
     }
-    .experience .btn {
+    .experience h3 {
         margin-top: 20px;
     }
 }
