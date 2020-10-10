@@ -12,12 +12,12 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding-top: 0px;
     padding-bottom: 0px;
 }
 
 .profile-card {
-    margin-left: 15vw;
     height: 500px;
     background: #f0f0f0;
     display: flex;
@@ -32,7 +32,7 @@
     height: 200px;
     width: 200px;
     border-radius: 50%;   
-    padding: 30px;
+    padding-left: 30px;
 }
 
 .profile-card h1 {
@@ -72,7 +72,7 @@
 }
     
 .text-box {
-    padding: 0 30px;
+    padding: 0 50px;
     max-width: 450px;
 }
 .text-box h2 {
