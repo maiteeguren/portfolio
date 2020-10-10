@@ -31,11 +31,9 @@
     display: block;
     width: fit-content;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 30px;
     padding: 10px 20px;
 }
-
-
 
 #back-to-top {
     width: 50;
