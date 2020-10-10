@@ -1,0 +1,47 @@
+.progress {
+    padding: 0;
+    margin: 0 20px;
+    display: flex;
+    height: 8px;
+    overflow: hidden;
+    background-color: #e1e4e8;
+    border-radius: 6px;
+    outline: 1px solid transparent;
+}
+
+.Progress-item {
+    outline: 2px solid transparent;
+}
+
+.language-list {
+    columns: 2;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0;
+    padding-left: 35px;
+}
+
+.language-list li::before {
+    content: "\25A0";
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.ruby::before {
+    color: #7579e7;
+}
+
+.html::before {
+    color: #FCE8DF;
+}
+
+.scss::before {
+    color: darkgrey;
+}
+
+.js::before {
+    color: black;
+}

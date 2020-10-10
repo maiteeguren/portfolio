@@ -21,6 +21,7 @@
 
 .project-card img {
     object-fit: cover;
+    height: auto;
 }
 
 .resume .heading {
