@@ -45,6 +45,11 @@
     margin: 0;
 }
 
+.left {
+    display: block;
+    text-align: left;
+}
+
 .resume .project-card .white {
     margin: 0;
     padding: 60px 40px 40px 0px;
@@ -76,6 +81,7 @@
 
 .skills-card .lists {
     display: flex;
+    padding: 0;
     padding-bottom: 20px;
 }
 
@@ -103,7 +109,7 @@
     color: #7579e7; /* Change the color */
     font-weight: bold; /* If you want it to be bold */
     display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
+    width: 2em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
@@ -121,13 +127,17 @@
     .project-card, .experience {
         width: 90%;
     }
-    .project-card div {
+    .project-card div{
         padding: 20px;
         width: -webkit-fill-available;
     }
 
     .project-card.job-card .white {
         padding: 20px;
+    }
+
+    .languages-container {
+        padding: 0 20px;
     }
 
     .project-card.job-card {
@@ -141,6 +151,9 @@
         columns: 1;
         -webkit-columns: 1;
         -moz-columns: 1;
+    }
+    .skills-card h3 {
+        margin: 0;
     }
     .skills-card .lists div {
         width: -webkit-fill-available;
